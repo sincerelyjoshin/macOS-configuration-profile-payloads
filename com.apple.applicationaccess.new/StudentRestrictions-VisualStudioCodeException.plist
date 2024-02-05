@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<!--
+		payload: com.apple.applicationaccess.new
+		description: The payload you use to configure parental controls for apps
+	-->
+<plist version="1.0">
+	<dict>
+		<key>pathBlackList</key>
+		<array>
+			<string>/Applications/App Store.app/</string>
+			<string>/System/Applications/App Store.app/</string>
+			<string>/Applications/Automator.app/</string>
+			<string>/System/Applications/Automator.app/</string>
+			<string>/Applications/FaceTime.app/</string>
+			<string>/System/Applications/FaceTime.app/</string>
+			<string>/Applications/FindMy.app/Contents/MacOS/FindMy</string>
+			<string>/System/Applications/FindMy.app/Contents/MacOS/FindMy</string>
+			<string>/Applications/Game Center.app/</string>
+			<string>/System/Library/CoreServices/Game Center.app/</string>
+			<string>/Applications/Home.app/Contents/MacOS/Home</string>
+			<string>/System/Applications/Home.app/Contents/MacOS/Home</string>
+			<string>/Applications/Messages.app/Contents/MacOS/Messages</string>
+			<string>/System/Applications/Messages.app/Contents/MacOS/Messages</string>
+			<string>/Applications/Shortcuts.app/</string>
+			<string>/System/Applications/Shortcuts.app/</string>
+			<string>/Applications/Time Machine.app/</string>
+			<string>/System/Applications/Time Machine.app/</string>
+			<string>/Applications/Utilities/Bluetooth File Exchange.app/</string>
+			<string>/System/Applications/Utilities/Bluetooth File Exchange.app/</string>
+			<string>/Applications/Utilities/Boot Camp Assistant.app/</string>
+			<string>/System/Applications/Utilities/Boot Camp Assistant.app/</string>
+			<string>/Applications/Utilities/Disk Utility.app/</string>
+			<string>/System/Applications/Utilities/Disk Utility.app/</string>
+			<string>/Applications/Utilities/Migration Assistant.app/</string>
+			<string>/System/Applications/Utilities/Migration Assistant.app</string>
+			<string>/Applications/Utilities/Script Editor.app/</string>
+			<string>/System/Applications/Utilities/Script Editor.app/</string>
+			<string>/Applications/Utilities/Terminal.app/</string>
+			<string>/System/Applications/Utilities/Terminal.app/</string>
+			<string>/Library/Application Support/Adobe/Adobe PCD/cache/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/Bridge CS5.1 Extensions/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/Extension Manager CC/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/Extension Manager CS5.5/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/InCopy/Version 16.0/en_US/Extensions/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/InCopy/Version 17.0/en_US/Extensions/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/InDesign/Version 16.0/en_US/Extensions/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/InDesign/Version 17.0/en_US/Extensions/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/SLCache/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/SLStore/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/SLStore_v1/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Adobe/UPI/Configuration/XManConfig/</string>
+			<string>/Library/Application Support/GarageBand/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Microsoft/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/regid.1986-12.com.adobe/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Reprise/</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/TI-SmartView CE 84</string><!-- Standard Users have access to write to this directory -->
+			<string>/Library/Application Support/Xerox/Preferences/</string><!-- Standard Users have access to write to this directory -->
+			<string>/System/Library/CoreServices/Applications/Directory Utility.app/</string>
+			<string>/System/Library/CoreServices/Applications/Folder Actions Setup.app/</string>
+			<string>/System/Library/CoreServices/Applications/Screen Sharing.app/</string>
+		</array>
+		<key>pathWhiteList</key>
+		<array>
+			<string>~/.vscode/</string>
+			<string>/.adobeTemp/</string>
+			<string>/Applications/</string>
+			<string>/Library/Application Support/</string>
+			<string>/Library/Google/</string>
+			<string>/Library/Internet Plug-Ins/</string>
+			<string>/Library/Printers/</string>
+			<string>/Library/PrivilegedHelperTools/</string>
+			<string>/usr/local/</string>
+			<string>/System/Volumes/Applications/</string>
+			<string>/System/Volumes/Data/.adobeTemp/</string>
+			<string>/System/Volumes/Preboot/</string>
+		</array>
+		<key>familyControlsEnabled</key>
+		<true/>
+	</dict>
+</plist>
