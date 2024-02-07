@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<!--
+		payload: com.apple.notificationsettings
+	-->
+<plist version="1.0">
+<dict>
+	<key>NotificationSettings</key>
+	<array>
+		<dict>
+			<key>AlertType</key>
+			<integer>0</integer>
+			<key>BadgesEnabled</key>
+			<false/>
+			<key>BundleIdentifier</key>
+			<string>com.apple.MobileSMS</string>
+			<key>CriticalAlertEnabled</key>
+			<false/>
+			<key>NotificationsEnabled</key>
+			<false/>
+			<key>ShowInLockScreen</key>
+			<false/>
+			<key>ShowInNotificationCenter</key>
+			<false/>
+			<key>SoundsEnabled</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>
