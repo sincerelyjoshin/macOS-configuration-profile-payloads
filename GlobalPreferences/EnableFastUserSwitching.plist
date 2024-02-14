@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<!--
+		payload: .GlobalPreferences
+		description: The payload you use to configure global preferences.
+	-->
+<plist version="1.0">
+<dict>
+	<key>MultipleSessionEnabled</key>
+	<true/>
+</dict>
+</plist>
