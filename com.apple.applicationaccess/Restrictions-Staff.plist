@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<!--
+		payload: com.apple.applicationaccess
+		description: The payload you use to configure restrictions on a device.
+	-->
+<plist version="1.0">
+<dict>
+	<key>allowAutoUnlock</key>
+	<false/>
+	<key>allowCloudKeychainSync</key>
+	<false/>
+	<key>allowCloudPrivateRelay</key>
+	<false/>
+	<key>allowEraseContentAndSettings</key>
+	<false/>
+	<key>allowPasswordProximityRequests</key>
+	<false/>
+	<key>allowPasswordSharing</key>
+	<false/>
+</dict>
+</plist>
